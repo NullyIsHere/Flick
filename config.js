@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '34.049',
-	defaultLongitude: '74.392',
+	defaultLatitude: '41.42937929578424',
+	defaultLongitude: '1.7870963488448046',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -44,7 +44,7 @@ const CONFIG = {
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
 	hourDarkThemeActive: '18:30',
-	hourDarkThemeInactive: '07:00',
+	hourDarkThemeInactive: '09:00',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
@@ -157,12 +157,12 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'trello',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Moodle',
+					link: 'https://www.jverdaguer.org/aula20/my/?apex_from=flick',
 				},
 				{
 					name: 'Hashnode',
